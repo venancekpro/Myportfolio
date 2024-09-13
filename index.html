@@ -1,285 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- --------- UNICONS ---------- -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+		<!-- --------- UNICONS ---------- -->
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+		/>
 
-    <!-- --------- CSS ---------- -->
-    <link rel="stylesheet" href="assets/css/style.css">
+		<!-- --------- CSS ---------- -->
+		<link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- --------- FAVICON ---------- -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+		<!-- --------- FAVICON ---------- -->
+		<link
+			rel="shortcut icon"
+			href="assets/images/lettre-a.png"
+			type="image/x-icon"
+		/>
 
-    <title>Portfolio | Andy</title>
-</head>
-<body>
-   <div class="container">
-    <!-- --------------- HEADER --------------- -->
-      <nav id="header">
-        <div class="nav-logo">
-            <p class="nav-name">Andy</p>
-            <span>.</span>
-        </div>
-        <div class="nav-menu" id="myNavMenu">
-            <ul class="nav_menu_list">
-                <li class="nav_list">
-                    <a href="#home" class="nav-link active-link">Acceuil</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#about" class="nav-link">A propos</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#projects" class="nav-link">Projets</a>
-                    <div class="circle"></div>
-                </li>
-                <li class="nav_list">
-                    <a href="#contact" class="nav-link">Contact</a>
-                    <div class="circle"></div>
-                </li>
-            </ul>
-        </div>
-        <div class="nav-button">
-            <button class="btn">Télécharger CV <i class="uil uil-file-alt"></i></button>
-        </div>
-        <div class="nav-menu-btn">
-            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
-        </div>
-      </nav>
+		<title>Portfolio | Andy</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- --------------- HEADER --------------- -->
+			<nav id="header">
+				<div class="nav-logo">
+					<p class="nav-name">Andy</p>
+					<span>.</span>
+				</div>
+				<div class="nav-menu" id="myNavMenu">
+					<ul class="nav_menu_list">
+						<li class="nav_list">
+							<a href="#home" class="nav-link active-link">Acceuil</a>
+							<div class="circle"></div>
+						</li>
+						<li class="nav_list">
+							<a href="#about" class="nav-link">A propos</a>
+							<div class="circle"></div>
+						</li>
+						<li class="nav_list">
+							<a href="#projects" class="nav-link">Projets</a>
+							<div class="circle"></div>
+						</li>
+						<li class="nav_list">
+							<a href="#contact" class="nav-link">Contact</a>
+							<div class="circle"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-button">
+					<a
+						href="./assets/CV BEUGRE SEM-ARIEL.pdf"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<button class="btn">
+							Télécharger CV
+							<i class="uil uil-file-alt"></i>
+						</button>
+					</a>
+				</div>
+				<div class="nav-menu-btn">
+					<i class="uil uil-bars" onclick="myMenuFunction()"></i>
+				</div>
+			</nav>
 
+			<!-- -------------- MAIN ---------------- -->
+			<main class="wrapper">
+				<!-- -------------- FEATURED BOX ---------------- -->
+				<section class="featured-box" id="home">
+					<div class="featured-text">
+						<div class="featured-text-card">
+							<span>Andy Beugré</span>
+						</div>
+						<div class="featured-name">
+							<p>Je suis un <span class="typedText"></span></p>
+						</div>
+						<div class="featured-text-info">
+							<p>
+								Concepteur, développeur web passionné. Je partage également mes
+								poèmes et mon art sur les réseaux, mêlant créativité littéraire
+								et inovation en technologie.
+							</p>
+						</div>
+						<div class="featured-text-btn">
+							<button class="btn blue-btn">Embauche-moi</button>
+							<a
+								href="./assets/CV BEUGRE SEM-ARIEL.pdf"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<button class="btn">
+									Télécharger CV
+									<i class="uil uil-file-alt"></i>
+								</button>
+							</a>
+						</div>
+						<div class="social_icons">
+							<div class="icon">
+								<a
+									href="https://www.instagram.com/b.andysa/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i class="uil uil-instagram"></i>
+								</a>
+							</div>
+							<div class="icon">
+								<a
+									href="https://github.com/trekkali"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i class="uil uil-github-alt"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="featured-image">
+						<div class="image">
+							<img src="assets/images/avatar.png" alt="avatar" />
+						</div>
+					</div>
+					<div class="scroll-icon-box">
+						<a href="#about" class="scroll-btn">
+							<i class="uil uil-mouse-alt"></i>
+							<p>Défiler</p>
+						</a>
+					</div>
+				</section>
+				<!-- -------------- ABOUT BOX ---------------- -->
+				<section class="section" id="about">
+					<div class="top-header">
+						<h1>A propos de moi</h1>
+					</div>
+					<div class="row">
+						<div class="col">
+							<div class="about-info">
+								<h3>Présentation</h3>
+								<p>
+									Je suis Andy, développeur web passionné en première année de
+									Master 1 Génie Logiciel. Fort d'une expérience significative
+									dans la conception et la création des sites et applications
+									web interactifs, je partage également mon art et ma culture
+									pour l'innovation.
+								</p>
+								<div class="about-btn">
+									<a
+										href="./assets/CV BEUGRE SEM-ARIEL.pdf"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<button class="btn">
+											Télécharger CV
+											<i class="uil uil-file-alt"></i>
+										</button>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="skills-box">
+								<div class="skills-header">
+									<h3>Frontend</h3>
+								</div>
+								<div class="skills-list">
+									<span>HTML</span>
+									<span>CSS</span>
+									<span>React</span>
+									<span>JavaScript</span>
+								</div>
+							</div>
+							<div class="skills-box">
+								<div class="skills-header">
+									<h3>Backend</h3>
+								</div>
+								<div class="skills-list">
+									<span>Node js</span>
+									<span>Python</span>
+									<span>C#</span>
+									<span>C++</span>
+								</div>
+							</div>
+							<div class="skills-box">
+								<div class="skills-header">
+									<h3>Database</h3>
+								</div>
+								<div class="skills-list">
+									<span>MySQL</span>
+									<span>Firebase</span>
+								</div>
+							</div>
+							<div class="skills-box">
+								<div class="skills-header">
+									<h3>Framework</h3>
+								</div>
+								<div class="skills-list">
+									<span>Django</span>
+									<span>Tailwind css</span>
+									<span>.Net</span>
+									<span>Boostrap</span>
+									<span>Matérial tailwind</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-    <!-- -------------- MAIN ---------------- -->
-    <main class="wrapper">
-       <!-- -------------- FEATURED BOX ---------------- -->
-       <section class="featured-box" id="home">
-          <div class="featured-text">
-            <div class="featured-text-card">
-                <span>Andy Beugré</span>
-            </div>
-            <div class="featured-name">
-                <p>Je suis un <span class="typedText"></span></p>
-            </div>
-            <div class="featured-text-info">
-                <p>Concepteur, développeur web passionné. Je partage également mes poèmes et mon art sur les réseaux,
-                    mêlant créativité littéraire et inovation technologie.
-                </p>
-            </div>
-            <div class="featured-text-btn">
-                <button class="btn blue-btn">Hire Me</button>
-                <button class="btn">Télécharger CV <i class="uil uil-file-alt"></i></button>
-            </div>
-            <div class="social_icons">
-                <div class="icon"><i class="uil uil-instagram"></i></div>
-                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                <div class="icon"><i class="uil uil-dribbble"></i></div>
-                <div class="icon"><i class="uil uil-github-alt"></i></div>
-            </div>
-          </div>
-          <div class="featured-image">
-            <div class="image">
-                <img src="assets/images/avatar.png" alt="avatar">
-            </div>
-          </div>
-          <div class="scroll-icon-box">
-            <a href="#about" class="scroll-btn">
-                <i class="uil uil-mouse-alt"></i>
-                <p>Défiler</p>
-            </a>
-          </div>
+				<section id="projects">
+					<p class="section__text__p1">Voir mes récents</p>
+					<h1 class="title">Projets</h1>
+					<div class="project-container">
+						<div class="project-box">
+							<a href="https://github.com/trekkali">
+								<img
+									src="./assets/images/project-1.png"
+									alt="Project 1"
+									class="project-img"
+								/>
+							</a>
+							<h3 class="project-title">Projet 1</h3>
+							<div class="btn-container">
+								<button
+									class="btn btn-color-2 project-btn"
+									onclick="location.href='https://github.com/trekkali'"
+								>
+									Github
+								</button>
+								<button
+									class="btn btn-color-2 project-btn"
+									onclick="location.href='https://la-rhumerie-web-site.web.app/'"
+								>
+									Live Demo
+								</button>
+							</div>
+						</div>
+						<div class="project-box">
+							<a href="https://github.com/trekkali">
+								<img
+									src="./assets/images/project-2.png"
+									alt="Project 2"
+									class="project-img"
+								/>
+							</a>
+							<h3 class="project-title">Projet 2</h3>
+							<div class="btn-container">
+								<button
+									class="btn btn-color-2 project-btn"
+									onclick="location.href='https://github.com/trekkali'"
+								>
+									Github
+								</button>
+								<button
+									class="btn btn-color-2 project-btn"
+									onclick="location.href='https://github.com/trekkali'"
+								>
+									Live Demo
+								</button>
+							</div>
+						</div>
+						<div class="project-box">
+							<a href="https://github.com/trekkali">
+								<img
+									src="./assets/images/project-3.png"
+									alt="Project 3"
+									class="project-img"
+								/>
+							</a>
+							<h3 class="project-title">Projet 3</h3>
+							<div class="btn-container">
+								<button
+									class="btn btn-color-2 project-btn"
+									onclick="location.href='https://github.com/trekkali'"
+								>
+									Github
+								</button>
+								<button
+									class="btn btn-color-2 project-btn"
+									onclick="location.href='https://github.com/trekkali'"
+								>
+									Live Demo
+								</button>
+							</div>
+						</div>
+					</div>
+					<img
+						src="./assets/images/arrow.png"
+						alt="Arrow icon"
+						class="icon arrow"
+						onclick="location.href='#contact'"
+					/>
+				</section>
 
-       </section>
-       <!-- -------------- ABOUT BOX ---------------- -->
-       <section class="section" id="about">
-          <div class="top-header">
-            <h1>A propos de moi</h1>
-          </div>
-          <div class="row">
-            <div class="col">
-                <div class="about-info">
-                    <h3>Présentation</h3>
-                    <p>Je suis Andy, développeur web passionné en dernière année de licence.Fort d'une expérience significative
-                        dans la conception et la création des sites et applications web interactifs, je partage également mon 
-                        art et ma culture pour l'innovation.Créateur d'histoires et de nouvelles expériences, je m'efforce
-                        d'allier technologie et créativité pour repousser les limites de l'imagination.
-                    </p>
-                    <div class="about-btn">
-                        <button class="btn">Télécharger CV <i class="uil uil-import"></i></button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="skills-box">
-                    <div class="skills-header">
-                        <h3>Frontend</h3>
-                    </div>
-                    <div class="skills-list">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>React</span>
-                        <span>JavaScript</span>
-                        
-                    </div>
-                </div>
-                <div class="skills-box">
-                    <div class="skills-header">
-                        <h3>Backend</h3>
-                    </div>
-                    <div class="skills-list">
-                        <span>Node js</span>
-                        <span>Python</span>
-                        <span>C#</span>
-                        <span>C++</span>
-                    </div>
-                </div>
-                <div class="skills-box">
-                    <div class="skills-header">
-                        <h3>Database</h3>
-                    </div>
-                    <div class="skills-list">
-                        <span>MySQL</span>
-                        <span>SQL lite</span>
-                        <span>Firebase</span>
-                    </div>
-                </div>
-                <div class="skills-box">
-                    <div class="skills-header">
-                        <h3>Framework</h3>
-                    </div>
-                    <div class="skills-list">
-                        <span>Django</span>
-                        <span>Tailwind css</span>
-                        <span>.Net</span>
-                        <span>Boostrap</span>
-                        <span>Matérial tailwind</span>
+				<!-- -------------- CONTACT BOX ---------------- -->
 
-                    </div>
-                </div>
-            </div>
-          </div>
-       </section>
+				<section class="section" id="contact">
+					<div class="top-header">
+						<h1>Me contacter</h1>
+						<span>Avez-vous un projet en tête ? Contactez-moi ici.</span>
+					</div>
+					<div class="row">
+						<!-- <div class="col"> -->
+						<div class="contact-info">
+							<h2>Contacts <i class="uil uil-corner-right-down"></i></h2>
+							<p>
+								<i class="uil uil-envelope"></i> Email: andysemariel@gmail.com
+							</p>
+							<p><i class="uil uil-phone"></i> Tel: +255 0172094880</p>
+						</div>
+						<!-- </div> -->
+					</div>
+				</section>
+			</main>
 
-       <section id="projects">
-        <p class="section__text__p1">Voir mes récents</p>
-        <h1 class="title">Projets</h1>
-        <div class="project-container">
-          <div class="project-box">
-            <a href="https://github.com/">
-              <img src="./assets/images/project-1.png" alt="Project 1" class="project-img" />
-            </a>
-            <h3 class="project-title">Projet 1</h3>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
-            </div>
-          </div>
-          <div class="project-box">
-            <a href="https://github.com/">
-              <img src="./assets/images/project-2.png" alt="Project 2" class="project-img" />
-            </a>
-            <h3 class="project-title">Projet 2</h3>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
-            </div>
-          </div>
-          <div class="project-box">
-            <a href="https://github.com/">
-              <img src="./assets/images/project-3.png" alt="Project 3" class="project-img" />
-            </a>
-            <h3 class="project-title">Projet 3</h3>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
-            </div>
-          </div>
-        </div>
-        <img src="./assets/images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
-      </section>
-      
+			<!-- --------------- FOOTER --------------- -->
+			<footer>
+				<div class="top-footer">
+					<p>Andy Beugré .</p>
+				</div>
+				<div class="middle-footer">
+					<ul class="footer-menu">
+						<li class="footer_menu_list">
+							<a href="#home">Acceuil</a>
+						</li>
+						<li class="footer_menu_list">
+							<a href="#about">A propos</a>
+						</li>
+						<li class="footer_menu_list">
+							<a href="#projects">Projet</a>
+						</li>
+						<li class="footer_menu_list">
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="social_icons">
+					<div class="icon">
+						<a
+							href="https://www.instagram.com/b.andysa/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<i class="uil uil-instagram"></i>
+						</a>
+					</div>
+					<div class="icon">
+						<a
+							href="https://github.com/trekkali"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<i class="uil uil-github-alt"></i>
+						</a>
+					</div>
+				</div>
+				<div class="bottom-footer">
+					<p>
+						Copyright &copy;
+						<a href="#home" style="text-decoration: none">Andy Beugré</a> - All
+						rights reserved
+					</p>
+				</div>
+			</footer>
+		</div>
 
-       <!-- -------------- CONTACT BOX ---------------- -->
+		<!-- ----- TYPING JS Link ----- -->
+		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-       <section class="section" id="contact">
-          <div class="top-header">
-            <h1>Get in touch</h1>
-            <span>Avez-vous un projet en tête ? Contactez-moi ici.</span>
-          </div>
-          <div class="row">
-             <div class="col">
-                <div class="contact-info">
-                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
-                    <p><i class="uil uil-envelope"></i> Email: gbeugre_ariel@imatabidjan.com</p>
-                    <p><i class="uil uil-phone"></i> Tel: +255 0172094880</p>
-                </div>
-             </div>
-             <div class="col">
-                <div class="form-control">
-                    <div class="form-inputs">
-                        <input type="text" class="input-field" placeholder="Nom">
-                        <input type="text" class="input-field" placeholder="Email">
-                    </div>
-                    <div class="text-area">
-                        <textarea placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-button">
-                        <button class="btn">Envoyer <i class="uil uil-message"></i></button>
-                    </div>
-                </div>
-             </div>
-          </div>
-       </section>
+		<!-- ----- SCROLL REVEAL JS Link----- -->
+		<script src="https://unpkg.com/scrollreveal"></script>
 
-    </main>
-
-
-    <!-- --------------- FOOTER --------------- -->
-    <footer>
-        <div class="top-footer">
-            <p>Andy Beugré .</p>
-        </div>
-        <div class="middle-footer">
-            <ul class="footer-menu">
-                <li class="footer_menu_list">
-                    <a href="#home">Acceuil</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#about">A propos</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#projects">Projet</a>
-                </li>
-                <li class="footer_menu_list">
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-social-icons">
-            <div class="icon"><i class="uil uil-instagram"></i></div>
-            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-            <div class="icon"><i class="uil uil-dribbble"></i></div>
-            <div class="icon"><i class="uil uil-github-alt"></i></div>
-        </div>
-        <div class="bottom-footer">
-            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Andy Beugré</a> - All rights reserved</p>
-        </div>
-    </footer>
-
-    </div>
-
-
-
-
-    <!-- ----- TYPING JS Link ----- -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-       <!-- ----- SCROLL REVEAL JS Link----- -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- ----- MAIN JS ----- -->
-    <script src="assets/js/main.js"></script>
-</body>
+		<!-- ----- MAIN JS ----- -->
+		<script src="assets/js/main.js"></script>
+	</body>
 </html>
